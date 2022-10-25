@@ -222,6 +222,7 @@ main {
         grid-template-rows: 40rem 40rem;
         position: relative;
 
+        margin: 0 0 10px 0;
 
         .art1 {
             display: grid;
@@ -355,6 +356,7 @@ main {
             animation-timing-function: linear;
             ;
             animation-iteration-count: infinite;
+            overflow: hidden;
 
         }
 
@@ -529,16 +531,23 @@ footer {
             grid-template-columns: 1fr;
             grid-template-rows: 40rem 40rem;
             position: relative;
-            // overflow: hidden;
 
+            // overflow: hidden;
+            .art1 {
+                padding: 5rem 5rem 1rem 5rem
+            }
         }
 
         .sec4 {
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 50rem 50rem;
+            grid-template-rows: 45rem 45rem;
             position: relative;
             overflow: hidden;
+
+            article {
+                padding: 5rem 5rem 1rem 5rem;
+            }
 
             p:nth-of-type(3) {
                 font-size: 0.7rem;

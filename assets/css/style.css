@@ -185,6 +185,7 @@ main .sec3 {
   grid-template-columns: 1fr;
   grid-template-rows: 40rem 40rem;
   position: relative;
+  margin: 0 0 10px 0;
 }
 main .sec3 .art1 {
   display: grid;
@@ -291,6 +292,7 @@ main .sec4 img:nth-of-type(1) {
   animation-duration: 10s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  overflow: hidden;
 }
 @keyframes rotatepic {
   0% {
@@ -434,12 +436,18 @@ footer .divwrappa .wrappa span {
     grid-template-rows: 40rem 40rem;
     position: relative;
   }
+  main .sec3 .art1 {
+    padding: 5rem 5rem 1rem 5rem;
+  }
   main .sec4 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50rem 50rem;
+    grid-template-rows: 45rem 45rem;
     position: relative;
     overflow: hidden;
+  }
+  main .sec4 article {
+    padding: 5rem 5rem 1rem 5rem;
   }
   main .sec4 p:nth-of-type(3) {
     font-size: 0.7rem;
